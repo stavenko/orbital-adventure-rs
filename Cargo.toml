@@ -1,0 +1,11 @@
+[package]
+name = "planets_renderer"
+version = "0.1.0"
+authors = ["Vasiliy G. Stavenko <stavenko@gmail.com>"]
+
+[build]
+rustflags = ['-A non_snake_case']
+
+[dependencies]
+gl = '*'
+glutin = '*'
